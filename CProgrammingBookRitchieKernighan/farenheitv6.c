@@ -22,11 +22,11 @@ start:
 
         if (option == 1)
         {
-            printf("\n%3.0f Fahrenheit = %6.1f Celcius\n", temp, (temp - 32.0) * (5.0 / 9.0));
+            printf("\n%3.0f Fahrenheit = %6.1f Celsius\n", temp, (temp - 32.0) * (5.0 / 9.0));
         }
         else if (option == 2)
         {
-            printf("\n%3.0f Celcius = %6.1f Fahrenheit\n", temp, (temp * (9.0 / 5.0) + 32));
+            printf("\n%3.0f Celsius = %6.1f Fahrenheit\n", temp, (temp * (9.0 / 5.0) + 32));
         }
         temp++;
     }
