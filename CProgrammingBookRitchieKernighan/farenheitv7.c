@@ -3,9 +3,9 @@
 // v6: For loop added to print next X number of temperatures as well
 // v7 define to remove magic numbers
 
-#define tempCoefficient 32.0
-#define fahtocelCalc 5.0 / 9.0
-#define celtofahCalc 9.0 / 5.0
+#define TEMPCOEFFICIENT 32.0
+#define FAHRENHEITCALC 5.0 / 9.0
+#define CELSIUSCALC 9.0 / 5.0
 
 main()
 {
@@ -27,11 +27,11 @@ start:
 
         if (option == 1)
         {
-            printf("\n%3.0f Fahrenheit = %6.1f Celsius\n", temp, (temp - tempCoefficient) * (fahtocelCalc));
+            printf("\n%3.0f Fahrenheit = %6.1f Celsius\n", temp, (temp - TEMPCOEFFICIENT) * (FAHRENHEITCALC));
         }
         else if (option == 2)
         {
-            printf("\n%3.0f Celsius = %6.1f Fahrenheit\n", temp, (temp * (celtofahCalc) + tempCoefficient));
+            printf("\n%3.0f Celsius = %6.1f Fahrenheit\n", temp, (temp * (CELSIUSCALC) + TEMPCOEFFICIENT));
         }
         temp++;
     }
