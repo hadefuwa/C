@@ -8,5 +8,6 @@ int main()
     double nc;
     for (nc = 0; getchar() != EOL; ++nc)
         ; //empty for loop because all the work is done in the test and increment parts.
+    //The isolated semicolon, called a null statement, is there to satisfy that requirement.
     printf("%.0f\n", nc);
 }
