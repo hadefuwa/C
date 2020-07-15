@@ -7,6 +7,6 @@ int main()
 {
     double nc;
     for (nc = 0; getchar() != EOL; ++nc)
-        ;
+        ; //empty for loop because all the work is done in the test and increment parts.
     printf("%.0f\n", nc);
 }
