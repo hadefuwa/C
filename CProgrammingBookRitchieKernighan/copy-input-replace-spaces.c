@@ -10,10 +10,10 @@ more blanks by a single blank. */
 
 int main(void)
 {
-    int c;
+    int c; // int is used instead of char c - this is to allow the compiler to store the EOF value into 'c' correctly - char will not always store correctly (depending on whether unsigned or signed).
 
     while ((c = getchar()) != EOL)
-    // keep taking characters aslong as its not equal to end of line
+    // keep taking characters as long as its not equal to end of line
     {
 
         // if any character equals a space then...
@@ -43,3 +43,5 @@ int main(void)
         putchar(c); //print the inputted characters
     }
 }
+
+//page 21
