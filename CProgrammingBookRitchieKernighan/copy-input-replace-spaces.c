@@ -43,5 +43,3 @@ int main(void)
         putchar(c); //print the inputted characters
     }
 }
-
-//page 21
