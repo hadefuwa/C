@@ -50,3 +50,5 @@ int main()
     }
     printf("\n\nWhite Space = %d \n\nOther = %d\n", noWhiteSpace, noOther);
 }
+
+//is this going to work. I hope so.
