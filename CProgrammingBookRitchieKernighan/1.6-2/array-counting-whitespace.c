@@ -2,7 +2,6 @@
 //The C Programming Language. 2nd Edition
 //Book by Brian Kernighan and Dennis Ritchie
 //1.6 Arrays
-//test update
 
 #include <stdio.h>
 /* count digits, white space, others */
@@ -49,6 +48,6 @@ int main()
         printf("%d ", noDigits[i]);
     }
     printf("\n\nWhite Space = %d \n\nOther = %d\n", noWhiteSpace, noOther);
-}
 
-//is this going to work. I hope so.
+    printf("\n\nSucess");
+}
