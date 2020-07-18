@@ -2,6 +2,7 @@
 //The C Programming Language. 2nd Edition
 //Book by Brian Kernighan and Dennis Ritchie
 //1.6 Arrays
+//test update
 
 #include <stdio.h>
 /* count digits, white space, others */
