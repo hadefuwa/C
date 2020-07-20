@@ -1,11 +1,18 @@
+//1:33 C PROGRAMMING FOR BEGINNERS - FULL COURSE - Theory + 101 Programs Video tutorials - by kodegod
+
+//Pattern programming theory
+
 #include <stdio.h>
 
 int main()
 {
-    int a,b,c;
-    printf("Enter Three Numbers\n\n");
-    scanf("%d,%d,%d", &a,&b,&c);
-    printf("\n\n You Entered: %d,%d,%d", a,c,b);
+    int n, i;
+    printf("Enter A Number\n\n");
+    scanf("%d", &n);
 
+    for(i = 0; i <= n; i++)
+    {
+        printf("N is %d \n", i);
+    }
     return 0;
 }
