@@ -14,8 +14,6 @@ Like this;
    *****
     ***
      *
-
-break this into 4 triangle loops; space, stars, space, stars
 */
 
 int main()
@@ -27,43 +25,68 @@ int main()
 
     for (int i = inputVar; i > 0; i--)
     {
-        for (int j = 0; j < inputVar-i; j++)
+        for (int l = 0; l < i - 1; l++) //done
         {
             printf(" ");
             /*
-            This loop prints spaces in the pattern
+            ____
+            ___
+            __
+            _
+            */
+        }
+
+        for (int m = inputVar; m > i; m--) //done
+        {
+            printf("\u2588");
+            /*
+               *
+              **
+             ***
+            ****
+            */
+        }
+
+        for (int j = inputVar; j > i; j--) //done
+        {
+            printf("\u2588");
+            /*
+            *
+            **
+            ***
+            ****
+            */
+        }
+        printf("\n");
+    }
+    for (int i = inputVar-1; i > 0; i--)
+    {
+        for (int j = inputVar; j > i; j--)//done
+        {
+            printf(" ");
+            /*
             _
             __
             ___
             ____
-            _____
-            ______
-            */ 
-        }
-        for (int k = 0; k < i; k++)
-        {
-            printf("\u2588");
-            /*
-            This loop prints the left side of the triangle
-            *****
-             ****
-              ***
-               **
-                *
             */
-        }        
-        for (int l = 0; l < i; l++)
+        }
+
+        for (int k = 0; k < i-1; k++) //done
+        {
+            printf("\u2588");
+        }
+        for (int l = 0; l < i-1; l++) 
         {
             printf("\u2588");
             /*
-            This loop prints the right side of the triangle
-            *****
             ****
             ***
             **
             *
             */
         }
+
         printf("\n");
     }
     return 0;
