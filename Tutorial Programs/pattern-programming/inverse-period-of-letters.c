@@ -19,13 +19,13 @@ int main()
 
     for (int i = inputVar-1; i >= 0; i--)
     {
-        for (int j = 0; j < i; j++)
+        for (int j = 0; j <= i; j++)
         {
             printf("%c", 65+j);
         }
         for (int k = 1; k < (inputVar-i); k++)
         {
-            printf(" ");
+            printf("  ");
         }        
         for (int l = i; l >= 0; l--)
         {
