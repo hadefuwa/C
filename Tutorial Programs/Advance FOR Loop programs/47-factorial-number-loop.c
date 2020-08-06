@@ -5,7 +5,7 @@ int main()
 
     int i = 0;
     int n = 0;
-    int factorial = 1;
+    long factorial = 1;
 
     printf("\nEnter a number:");
     scanf("%d", &n);
@@ -15,7 +15,7 @@ int main()
         factorial=factorial*i;
     }
 
-    printf("\nfactorial is %d\n", factorial);
+    printf("\nfactorial is %.0ld \n", factorial);
 
 
     return 0;
