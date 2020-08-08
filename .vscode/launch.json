@@ -5,7 +5,6 @@
     "version": "0.2.0",
     "configurations": [
         
-
         {
             "name": "gcc-9 - Build and debug active file",
             "type": "cppdbg",
@@ -25,7 +24,7 @@
                 }
             ],
             "preLaunchTask": "C/C++: gcc-9 build active file",
-            "miDebuggerPath": "/usr/bin/gcc"
+            "miDebuggerPath": "/usr/bin/gdb"
         }
     ]
 }

@@ -8,6 +8,7 @@ int main()
 
     printf("Enter: \n");
     scanf("%d", &input);
+    printf("\nSuccess");
 
     return 0;
 }
