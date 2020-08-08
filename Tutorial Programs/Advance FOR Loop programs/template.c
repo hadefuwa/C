@@ -2,6 +2,7 @@
 
 //my template
 
+
 int main()
 {
     int input = 0;
