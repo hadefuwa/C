@@ -9,6 +9,7 @@ int main()
     printf("Enter: \n");
     scanf("%d", &input);
     printf("\nSuccess");
+    printf("Hey");
 
     return 0;
 }
