@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-//my template
-
+//my template - test
 
 int main()
 {
